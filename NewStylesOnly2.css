@@ -1,0 +1,33 @@
+.c-scrollbar__track { 
+  display: none; 
+} 
+
+.p-channel_sidebar__navigation_bar { 
+  display: none !important; 
+}
+
+.p-channel_sidebar__static_list[data-qa="channel_sidebar_list"] div[role="presentation"] {
+  display: none; 
+} 
+
+div[role='listitem']:nth-child(2) {
+  display: none !important;
+}
+
+.p-channel_sidebar__section_heading[data-qa='apps'] {
+  display: none !important;
+}
+
+button[aria-label="Browse all channels"]{ 
+  margin-top:10px; 
+  margin-bottom: 5px; 
+}
+
+button[aria-label="Open a direct message"] { 
+  margin-top: 18px; 
+  margin-bottom: 3px; 
+}
+
+div[role="listitem"], .p-channel_sidebar__folder_heading, .p-channel_sidebar__section_heading{ 
+  height: auto !important; 
+}
